@@ -205,4 +205,12 @@ main>section{
         flex-direction: column;
         align-items: center;
     }
+        .facts-box-container,
+        .facts-box-container,
+        .sponsor-image {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+
 }
